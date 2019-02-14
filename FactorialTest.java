@@ -19,7 +19,7 @@ public class FactorialTest {
     @Test
     public void factorialOfTest(){
         //:Given
-        BigInteger expected = new BigInteger("24");
+        BigInteger expected = new BigInteger ("24");
 
         //:When
         BigInteger actual = factorial.factorialOf(4);

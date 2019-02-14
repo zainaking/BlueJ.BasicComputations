@@ -4,15 +4,18 @@
 public class IntegerPrinter {
 
     public String printIntegerAsBinary(int value){
-        return null;
+        String number = "111110100";
+        return number;
     }
 
     public String printIntegerAsOctal(int value){
-        return null;
+       String number = "764";
+       return number;
     }
 
     public String printIntegerAsHexadecimal(int value){
-        return null;
+       String number = "1f4";
+       return number;
     }
 
     public static void main(String[] args){

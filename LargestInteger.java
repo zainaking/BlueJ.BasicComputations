@@ -4,10 +4,30 @@
 public class LargestInteger {
 
     public Integer findLargestNumberUsingConditional(Integer[] integers){
-        return null;
-    }
+        int number =0;
+        for (int i=0; i<integers.length; i++){
+            if ( integers[i]> number ) {
+               number = integers[i];
+            }
+    } 
 
-    public Integer findLargestNumberUsingMathMax(Integer[] integers){
-        return null;
-    }
-}
+    return number;
+    } public Integer findLargestNumberUsingMathMax(Integer[] integers){ 
+    
+    int number = 0;
+        for (int i=0; i <integers.length; i++){
+           if (integers[i] > number ) {
+               number = Math.max(integers[i], number); }
+    
+                
+                
+        
+       
+   }
+   return number;
+} 
+} 
+
+
+
+
